@@ -3,7 +3,7 @@ I built my own git, with two types : 1-with cli commands , 2-with prompts that l
 
  mygit_cli.py is the one with cli commands, run it to use the cli version of my git:
 
--[Blog] -[https://corvus-ikshana.hashnode.dev/building-a-simple-gitcrowgit-like-version-control-system-in-python]
+- [blog:](#initialize-a-repository](https://corvus-ikshana.hashnode.dev/building-a-simple-gitcrowgit-like-version-control-system-in-python)
  
 
 MyGit is a simplified version control system inspired by Git. It allows you to manage your project's version history, create branches, commit changes, and more, all from the command line.
