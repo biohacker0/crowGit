@@ -138,7 +138,7 @@ python mygit_cli.py switch_branch myfeaturebranch
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# To use the non cli version mygit.py , just run it and you will understand how to use it by using it, its simple, just choose a number like 1,2,3 etc , dont type the word init, choose the number associated with it.
+To use the non cli version mygit.py , just run it and you will understand how to use it by using it, its simple, just choose a number like 1,2,3 etc , dont type the word init, choose the number associated with it.
 
 
 
