@@ -138,29 +138,7 @@ python mygit_cli.py switch_branch myfeaturebranch
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Usage
-Here's a basic workflow using MyGit:
-
-Initialize a new repository:
-python mygit_cli.py init
-
-Add files to the Git index:
-python mygit_cli.py add myfile.txt
-
-Or add all files in the current directory and its subdirectories:
-python mygit_cli.py add . --recursive
-
-Commit your changes:
-python mygit_cli.py commit --message "Initial commit" --author "John Doe"
-
-View the commit history:
-python mygit_cli.py log
-
-Create a new branch:
-python mygit_cli.py create_branch myfeaturebranch
-
-Switch to an existing branch:
-python mygit_cli.py switch_branch myfeaturebranch
+# To use the non cli version mygit.py , just run it and you will understand how to use it by using it, its simple, just choose a number like 1,2,3 etc , dont type the word init, choose the number associated with it.
 
 
 
