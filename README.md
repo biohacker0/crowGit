@@ -2,7 +2,7 @@
 I built my own git, with two types : 1-with cli commands , 2-with prompts that lets you choose , it does git-add,commit,branch,change_branch,logs , we have flags with cli 
 
  mygit_cli.py is the one with cli commands, run it to use the cli version of my git:
- MyGit - A Simple CLI Git-like Version Control System
+ 
 
 MyGit is a simplified version control system inspired by Git. It allows you to manage your project's version history, create branches, commit changes, and more, all from the command line.
 
