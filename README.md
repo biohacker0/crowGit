@@ -29,76 +29,112 @@ Clone the MyGit repository to your local machine:
 #Commands
 MyGit supports the following commands:
 
-#init
+Sure, here's the text formatted in a more minimalist style for your GitHub README file:
+
+---
+
+## mygit_cli.py
+
+This is a Python-based CLI for Git operations. Here are the available commands:
+
+### init
+
 Initialize a new Git repository in the current directory.
-` python mygit_cli.py init `
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 
-#add
+```bash
+python mygit_cli.py init
+```
+
+### add
+
 Add files to the Git index.
- ` python mygit_cli.py add . `
- ` python mygit_cli.py add <filename> `
 
-<filename>: The name of the file you want to add to the index. Use . to add all files in the current directory and its subdirectories.
---recursive, -r: Recursively add files in the current directory and its subdirectories.
+```bash
+python mygit_cli.py add .
+python mygit_cli.py add <filename>
+```
+
+`<filename>`: The name of the file you want to add to the index. Use `.` to add all files in the current directory and its subdirectories.
+
+`--recursive, -r`: Recursively add files in the current directory and its subdirectories.
 
 Examples:
+
+```bash
 python mygit_cli.py add .
 python mygit_cli.py add myfile.txt
 python mygit_cli.py add . --recursive
+```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### commit
 
-#commit#
 Commit changes to the Git repository.
 
-` python mygit_cli.py commit --message <message> --author <author> [--branch <branch>] `
-  
---message: The commit message.
---author: The name of the author.
---branch: (Optional) The branch name to commit to. If not specified, it will commit to the current branch.
+```bash
+python mygit_cli.py commit --message <message> --author <author> [--branch <branch>]
+```
+
+`--message`: The commit message.
+
+`--author`: The name of the author.
+
+`--branch`: (Optional) The branch name to commit to. If not specified, it will commit to the current branch.
 
 Examples:
 
+```bash
 python mygit_cli.py commit --message "Initial commit" --author "John Doe"
 python mygit_cli.py commit --message "Fix a bug" --author "Alice" --branch myfeaturebranch
+```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### log
 
-#log
 View commit history.
 
-` python mygit_cli.py log `
+```bash
+python mygit_cli.py log [--branch <branch>]
+```
 
---branch: (Optional) The branch name to view commits. If not specified, it will show commits from the current branch
+`--branch`: (Optional) The branch name to view commits. If not specified, it will show commits from the current branch
 
 Examples:
+
+```bash
 python mygit_cli.py log
 python mygit_cli.py log --branch myfeaturebranch
+```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### create_branch
 
-#create_branch
 Create a new branch.
 
-` python mygit_cli.py create_branch <branch_name> `
+```bash
+python mygit_cli.py create_branch <branch_name>
+```
 
-<branch_name>: The name of the new branch.
+`<branch_name>`: The name of the new branch.
 
 Example:
+
+```bash
 python mygit_cli.py create_branch myfeaturebranch
+```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### switch_branch
 
-#switch_branch
 Switch to an existing branch.
 
-`python mygit_cli.py switch_branch <branch_name>`
+```bash
+python mygit_cli.py switch_branch <branch_name>
+```
 
-<branch_name>: The name of the branch to switch to.
+`<branch_name>`: The name of the branch to switch to.
 
 Example:
+
+```bash
 python mygit_cli.py switch_branch myfeaturebranch
+```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
