@@ -25,7 +25,7 @@ MyGit is a simplified version control system inspired by Git. It allows you to m
 To use mygit_cli with cli commmands, follow these steps:
 
 Clone the MyGit repository to your local machine:
-1- git clone https://github.com/yourusername/mygit.git
+1- git clone https://github.com/biohacker0/crowGit.git
 2-cd mygit
 3: have some files in the root folder to test it first , I have included some file in github already to test, I am working on it currently, so it not that stable.
 #Commands
